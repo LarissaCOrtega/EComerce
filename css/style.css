@@ -1,0 +1,37 @@
+:root{
+    --primary:   #ea004e;
+    --secondary: #f995c4;
+    --tertiary : #1e1e1e;
+
+    --darkpink:  #ef2f7c;
+    --pink:      #f461a1;
+    --lightpink: #ffcce9;
+}
+html{
+    font-family: 'Comfortaa', cursive;
+}
+header{
+    border-bottom: 5px solid #1e1e1e;
+    padding: 20px;
+}
+header a{
+    text-decoration: none;
+    color: var(--tertiary);
+    margin: 20px;
+}
+
+header .form{
+    float: right; /* flutue para a direita */
+}
+
+header .form .login{
+    color: var(--darkpink);
+    font-weight: bold;
+}
+
+header .form .cadastro{
+    background: var(--darkpink);
+    color: #fff;
+    font-weight: bold;
+}
+
